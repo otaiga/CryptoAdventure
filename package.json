@@ -1,0 +1,38 @@
+{
+  "name": "crypto-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "ts-node web3Upload.ts",
+    "retrieve": "ts-node web3Retrieve.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasperdoggames/CryptoAdventure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasperdoggames/CryptoAdventure/issues"
+  },
+  "homepage": "https://github.com/kasperdoggames/CryptoAdventure#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.2",
+    "@types/uuid": "^8.3.4",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0",
+    "moralis": "0.0.182",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "web3.storage": "^3.5.2"
+  }
+}

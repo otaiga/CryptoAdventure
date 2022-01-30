@@ -1,3 +1,3 @@
-npm i
+npm ci
 cd client
-npm i
+npm ci
